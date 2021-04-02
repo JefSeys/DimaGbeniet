@@ -1,0 +1,25 @@
+.rij{
+    height: 400px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.rij img {
+    margin: 5px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .centerDiv {
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  
