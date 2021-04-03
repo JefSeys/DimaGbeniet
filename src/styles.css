@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .centerDiv {
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  
+  .link {
+    color: #30a1ec;
+    text-decoration: none;
+  }

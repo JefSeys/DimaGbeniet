@@ -5,7 +5,7 @@ import { AntModule } from '../ant/ant.module';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: 'hoofdscherm', component: HoofdschermComponent },
+  { path: '', component: HoofdschermComponent },
 ];
 
 

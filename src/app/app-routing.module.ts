@@ -38,6 +38,10 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./hoofdscherm/hoofdscherm.module').then(m => m.HoofdschermModule)
+  },
+  {
+    path: '**',
+    loadChildren: () => import('./hoofdscherm/hoofdscherm.module').then(m => m.HoofdschermModule)
   }
 ];
 
