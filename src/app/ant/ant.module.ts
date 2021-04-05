@@ -16,7 +16,7 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
     NzImageModule,
     NzDividerModule,
     NzGridModule,
-    NzLayoutModule 
+    NzLayoutModule
   ]
 })
 export class AntModule { }

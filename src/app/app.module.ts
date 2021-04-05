@@ -12,6 +12,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AntModule } from './ant/ant.module';
 import { AppRoutingModule } from './app-routing.module';
 import { NavComponent } from './nav/nav.component';
+import 'hammerjs';
+import 'mousetrap';
+import { GalleryModule } from '@ks89/angular-modal-gallery';
 
 registerLocaleData(nl);
 
@@ -25,7 +28,8 @@ registerLocaleData(nl);
     HttpClientModule,
     BrowserAnimationsModule,
     AntModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GalleryModule.forRoot()
   ],
   providers: [{ provide: NZ_I18N, useValue: nl_BE }],
   bootstrap: [AppComponent]

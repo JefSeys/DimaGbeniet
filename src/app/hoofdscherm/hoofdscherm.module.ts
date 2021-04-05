@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HoofdschermComponent } from './hoofdscherm/hoofdscherm.component';
 import { AntModule } from '../ant/ant.module';
 import { RouterModule, Routes } from '@angular/router';
+import { GalleryModule } from '@ks89/angular-modal-gallery';
 
 const routes: Routes = [
   { path: '', component: HoofdschermComponent },
@@ -14,7 +15,8 @@ const routes: Routes = [
   imports: [
     CommonModule,
     AntModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    GalleryModule
   ]
 })
 export class HoofdschermModule { }

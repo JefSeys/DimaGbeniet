@@ -21,6 +21,10 @@
     margin: 0 auto;
     padding-bottom: 10px;
   }
+
+  .ant-divider-horizontal.ant-divider-with-text{
+    border-top-color: rgb(87, 87, 87)
+  }
   
 /* width */
 ::-webkit-scrollbar {

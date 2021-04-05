@@ -39,6 +39,9 @@
         text-align: center;
       }
 
+      .ant-layout-header, .ant-menu.ant-menu-dark{
+        background: #5d5c60;
+      }
           /* Footer */
 
     footer{
@@ -104,6 +107,7 @@
     font-weight: 400;
     text-decoration: none;
     color: inherit;
+    margin-right: 5px;
   }
   
   .footer-distributed .footer-company-name {
