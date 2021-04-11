@@ -1,4 +1,9 @@
 
+      nz-header li{
+        width: 16%;
+        font-size: 120%;
+      }
+      
       .layout {
         min-height: 100vh;
       }
@@ -235,5 +240,14 @@
   
     .footer-distributed .footer-center i {
       margin-left: 0;
+    }
+    nz-header li{
+      font-size: 100%;
+    }
+  }
+
+  @media (max-width: 900px) {
+    nz-header li i{
+      display: none;
     }
   }
