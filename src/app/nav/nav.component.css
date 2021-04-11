@@ -1,7 +1,12 @@
 
       nz-header li{
-        width: 16%;
+        width: 16.6%;
         font-size: 120%;
+        text-align: center;
+      }
+
+      .ant-layout-header{
+        padding: 0px;
       }
       
       .layout {
