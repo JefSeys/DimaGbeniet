@@ -21,7 +21,6 @@
       }
 
       nz-content {
-        padding: 0 50px;
         margin-top: 64px;
       }
 
@@ -40,7 +39,7 @@
       }
 
       .ant-layout-header, .ant-menu.ant-menu-dark{
-        background: #5d5c60;
+        background: #2b6767;
       }
           /* Footer */
 

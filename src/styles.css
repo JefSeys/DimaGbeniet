@@ -14,15 +14,26 @@
   }
   
   .link {
-    color: #7395AE;
+    color: #6a3c1f;
     text-decoration: none;
   }
 
-*, h1, h2, h3, h4{
+  h1{
+    margin-top: 30px;
+  }
+ h1, h2, h3, h4, span{
     font-family: Helvetica, sans-serif;
-    color: white;
+    color: #2b6767;
   }
   body, .ant-layout{
-    background: #938e93;
-    color: white;
+    background: #d1d1cf;
+    color: #2b6767;
+  }
+  h3{
+    font-size: 180%;
+  }
+
+  nz-layout li, nz-layout a, nz-layout p{
+    font-size: 130%;
+    font-family: Helvetica, sans-serif;
   }
