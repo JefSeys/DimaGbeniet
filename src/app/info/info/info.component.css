@@ -1,9 +1,45 @@
-p{
-    margin-top: 50px;
-    width: 80%;
+.naastElkaarInfo4Icon{
+    display: flex;
+  }
+  
+  .naastElkaarInfo2Icon{
+    display: flex;
+    width: 50%;
+  }
+
+  .info {
+    margin-left: 10%;
+  }
+
+  .infoDeel1,
+.infoDeel2,
+.infoDeel3 {
+  width: 33%;
+  margin-bottom: 50px;
 }
 
-.opsomming{
-    text-align: left;
-    margin-left: 30%;
+.infoDelen {
+  display: flex;
+}
+
+.opsommingTitel {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+.iconInfo{
+    width: 50%;
+  }
+
+  @media (max-width: 1100px){
+.infoDelen {
+    display: table;
+    margin: 0 auto;
+}
+.infoDeel1,
+.infoDeel2,
+.infoDeel3 {
+  width: 100%;
+  margin-bottom: 50px;
+}
 }

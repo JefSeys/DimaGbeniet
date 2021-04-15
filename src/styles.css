@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-
+.ant-menu-item-selected{
+  background-color: #557a95!important;
+}
+.ant-divider-inner-text{
+  font-size: 150%;
+}
 .center {
     text-align: center;
     display: block;
@@ -14,8 +19,9 @@
   }
   
   .link {
-    color: #6a3c1f;
+    color: #557a95;
     text-decoration: none;
+    font-size: 110%;
   }
 
   h1{
@@ -29,8 +35,14 @@
     background: #d1d1cf;
     color: #2b6767;
   }
+  h1{
+    font-size: 250%;
+  }
+  h2{
+    font-size: 220%;
+  }
   h3{
-    font-size: 180%;
+    font-size: 200%;
   }
 
   nz-layout li, nz-layout a, nz-layout p{

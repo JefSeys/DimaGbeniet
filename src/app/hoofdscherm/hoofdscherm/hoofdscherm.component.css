@@ -8,3 +8,8 @@
     width: 100%;
     pointer-events: none;
   }
+
+  .container{
+    
+    width: 60%;
+  }

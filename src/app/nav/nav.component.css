@@ -1,4 +1,8 @@
-
+span{
+  color: rgba(255, 255, 255, 0.65);
+}
+      
+      
       nz-header li{
         width: 16.6%;
         font-size: 120%;
@@ -68,7 +72,7 @@
   }
   
   .footer-distributed {
-    background: #666;
+    background: #5d5c60;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -99,7 +103,7 @@
   }
   
   .footer-distributed h3 span {
-    color: #30a1ec;
+    color: #7395ae;
   }
   
   /* Footer links */
@@ -166,7 +170,7 @@
   }
   
   .footer-distributed .footer-center p a {
-    color: #30a1ec;
+    color: #7395ae;
     text-decoration: none;
   }
   
@@ -192,7 +196,7 @@
   
   .footer-distributed .footer-company-about {
     line-height: 20px;
-    color: #92999f;
+    color: #7395ae;
     font-size: 13px;
     font-weight: normal;
     margin: 0;
@@ -253,6 +257,15 @@
 
   @media (max-width: 900px) {
     nz-header li i{
+      display: none;
+    }
+  }
+
+  @media (max-width: 700px) {
+    nz-header li i{
+      display: inline-block;
+    }
+    nz-header li span{
       display: none;
     }
   }

@@ -1,16 +1,19 @@
 <h1 class="center">Info</h1>
-<div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }">
-    <div nz-col class="gutter-row center" [nzSpan]="8">
-        <div class="inner-box">
+<div class="info">
+    <div class="infoDelen" style="list-style-type: square;">
+        <div class="infoDeel1">
             <h3 class="opsommingTitel">Algemeen</h3>
             <li class="opsomming">8 personen</li>
             <li class="opsomming">Aankomst vanaf 16u00</li>
             <li class="opsomming">Vertrekken uiterlijk 10u00</li>
-            <li class="opsomming">Prijs (minimum 3 nachten): &euro; 200 / nacht</li>
+            <li class="opsomming">Prijs (minimum 3 nachten):</li>
+            <ul style="margin-block-start: 0.2em; list-style-type: circle;">
+                <li>Maandag tem donderdag: &euro; 220 / nacht</li>
+                <li>Vrijdag tem zondag: &euro; 250 / nacht</li>
+                <li>Schoolvakanties: &euro; 250 / nacht</li>
+            </ul>
         </div>
-    </div>
-    <div nz-col class="gutter-row center" [nzSpan]="8">
-        <div class="inner-box">
+        <div class="infoDeel2">
             <h3 class="opsommingTitel">Inbegrepen in de huurprijs</h3>
             <li class="opsomming">Bedlinnen</li>
             <li class="opsomming">Badlinnen</li>
@@ -18,22 +21,20 @@
             <li class="opsomming">Wifi</li>
             <li class="opsomming">Eindschoonmaak</li>
         </div>
-    </div>
-    <div nz-col class="gutter-row center" [nzSpan]="8">
-        <div class="inner-box">
+        <div class="infoDeel3">
             <h3 class="opsommingTitel">Bijkomende kosten</h3>
             <li class="opsomming">Elektriciteit: &euro; 0,35 / kWh</li>
             <li class="opsomming">Gas / stookolie: &euro; 0,85 / kWh</li>
             <li class="opsomming">Water: &euro; 5,00 / m&sup3;</li>
         </div>
     </div>
-</div>
 
-<div class="centerDiv">
-<p class="center">
-    De reservering is definitief bij het ontvangen van het voorschot
-    (= de helft van het tarief voor de huurperiode). Tien dagen voor
-    aankomst dient de andere helft + de waarborg overgeschreven te
-    zijn. De waarborg bedraagt &euro; 300 en wordt binnen de 2 weken na het
-    einde van het verblijf terugbetaald.</p>
+    <br />
+    <li class="opsommingTitel fontGroter110" style="margin-right: 10%;">
+        De reservering is definitief bij het ontvangen van het voorschot
+        (= de helft van het tarief voor de huurperiode). Tien dagen voor
+        aankomst dient de andere helft + de waarborg overgeschreven te
+        zijn. De waarborg bedraagt &euro; 300 en wordt binnen de 2 weken na het
+        einde van het verblijf terugbetaald.
+    </li>
 </div>
