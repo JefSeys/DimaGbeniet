@@ -10,6 +10,45 @@
   }
 
   .container{
-    
+    height: 600px;
     width: 60%;
   }
+
+  .tekst{
+    padding-top: 20%; 
+    margin-right: 20px; 
+    height: 500px; 
+    text-align: left;
+  }
+
+  .tekstSmall{
+    display: none;
+  }
+
+  @media (max-width: 1600px){
+    .tekst{
+      padding-top: 15%; 
+    }
+    }
+    @media (max-width: 1300px){
+      .tekst{
+        padding-top: 5%; 
+      }
+      }
+      @media (max-width: 1100px){
+        .tekstSmall{
+          display: block; 
+        }
+
+        .tekstBig{
+          display: none;
+        }
+        .container{
+          width: 100%;
+        }
+        
+        .tekst{
+          width: 90%;
+          margin-left: 5%;
+        }
+        }

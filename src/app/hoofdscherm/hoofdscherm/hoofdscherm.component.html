@@ -1,21 +1,65 @@
-   <h1 class="center">Dima Gbeniet</h1>
-   <div class="container centerDiv">
-   <ks-carousel [id]=100 [images]="imagesRect" [previewConfig]="{visible: false}"
+<h1 class="center">Dima Gbeniet</h1>
+<div class="container centerDiv">
+    <ks-carousel [id]=100 [images]="imagesRect" [previewConfig]="{visible: false}"
         [playConfig]="{autoPlay: true, interval: 3000, pauseOnHover: true}" [carouselConfig]="{maxHeight: '100%'}">
         <!--<div class="projected">Dima Gbeniet</div>-->
     </ks-carousel>
 </div>
 
-<div class="centerDiv" style="width: 80%;">
-    <p>Authentieke karaktervilla uit de tijd  (1900-1914)dat Oostduinkerke nog maagdelijk mooi was. De villa Dima Gbeniet  staat verheven boven de duinen met leefruimte naar de noordant en keuken en veranda maar de zuidkant 
+<div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }" style="margin-top: 50px;" class="tekstBig">
+    <div nz-col class="gutter-row center" [nzSpan]="12">
+        <div class="inner-box" style="width: 90%; margin-left: 5%;">
+            <ks-carousel [id]=101 [images]="imagesDetail" [previewConfig]="{visible: false}"
+                [playConfig]="{autoPlay: true, interval: 3000, pauseOnHover: true}"
+                [carouselConfig]="{maxHeight: '100%'}">
+                <!--<div class="projected">Dima Gbeniet</div>-->
+            </ks-carousel>
+        </div>
+    </div>
+    <div nz-col class="gutter-row center" [nzSpan]="12">
+        <div class="inner-box">
+            <p class="tekst">Authentieke karaktervilla uit de tijd (1900-1914) dat Oostduinkerke nog maagdelijk mooi
+                was.
+                De villa Dima Gbeniet staat verheven boven de duinen met leefruimte naar de noordant en keuken en
+                veranda naar de zuidkant.
 
-        Op verdiep zijn er vier slaapkamers waarvan twee met terras en twee badkamers met douche, en drie toiletten.
-        
-        Er is een overdekt zonneterras.
-        
-        De villa is gegraven in de duinen en benadert best hoe mooi het toen moest zijn geweest.
-        
-        De eigenaars hebben bij de verbouwingen de villa zo goed mogelijk bewaard en voorzien van alle modern comfort.
-        
-        Alles op een kleine wandeling van duinen en zee in absolute stilte.</p>
+                Op verdiep zijn er vier slaapkamers waarvan twee met terras en twee badkamers met douche, en drie
+                toiletten.
+
+                Er is een overdekt zonneterras.
+
+                De villa is gegraven in de duinen en benadert best hoe mooi het toen moet zijn geweest.
+
+                De eigenaars hebben bij de verbouwingen de villa zo goed mogelijk bewaard en voorzien van alle modern
+                comfort.
+
+                Alles op een kleine wandeling van duinen en zee in absolute stilte.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="tekstSmall" style="margin-top: 50px;">
+    <div style="width: 90%; margin-left: 5%; height: 520px;">
+        <ks-carousel [id]=101 [images]="imagesDetail" [previewConfig]="{visible: false}"
+            [playConfig]="{autoPlay: true, interval: 3000, pauseOnHover: true}" [carouselConfig]="{maxHeight: '100%'}">
+            <!--<div class="projected">Dima Gbeniet</div>-->
+        </ks-carousel>
+    </div>
+    <div>
+        <p class="tekst">Authentieke karaktervilla uit de tijd (1900-1914) dat Oostduinkerke nog maagdelijk mooi was.
+            De villa Dima Gbeniet staat verheven boven de duinen met leefruimte naar de noordant en keuken en veranda
+            naar de zuidkant.
+
+            Op verdiep zijn er vier slaapkamers waarvan twee met terras en twee badkamers met douche, en drie toiletten.
+
+            Er is een overdekt zonneterras.
+
+            De villa is gegraven in de duinen en benadert best hoe mooi het toen moet zijn geweest.
+
+            De eigenaars hebben bij de verbouwingen de villa zo goed mogelijk bewaard en voorzien van alle modern
+            comfort.
+
+            Alles op een kleine wandeling van duinen en zee in absolute stilte.
+        </p>
+    </div>
 </div>

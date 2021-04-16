@@ -111,6 +111,45 @@ export class HoofdschermComponent implements OnInit {
     })
   ];
 
+  imagesDetail: Image[] = [
+    new Image(
+      0,
+      {
+        img: 'assets/images/a.jpg'
+      },
+      {
+        img: 'assets/images/a.jpg'
+      }
+    ),
+    new Image(
+      1,
+      {
+        img: 'assets/images/b.jpg'
+      },
+      {
+        img: 'assets/images/b.jpg'
+      }
+    ),
+    new Image(
+      2,
+      {
+        img: 'assets/images/c.jpg'
+      },
+      {
+        img: 'assets/images/c.jpg'
+      }
+    ),
+    new Image(
+      3,
+      {
+        img: 'assets/images/d.jpg'
+      },
+      {
+        img: 'assets/images/d.jpg'
+      }
+    )
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
